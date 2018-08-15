@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chess Inline-block</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            text-align: center;
+        }
+        
+        h1 {
+            position: absolute;
+            bottom: 10%;
+            width: 100%;
+            text-transform: uppercase;
+            font-family: arial;
+            font-size: 35px;
+        }
+        
+        .board {
+            position: absolute;
+            top: calc(50% - 15vw);
+            left: calc(50% - 15vw);
+            width: 30vw;
+            height: 30vw;
+            border: 10px solid black;
+            font-size: 0;
+        }
+        
+        span {
+            width: 50%;
+            height: 50%;
+            display: inline-block;
+        }
+        
+        span:nth-of-type(2) {
+            background-color: red;
+        }
+        
+        span:nth-of-type(3) {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="board">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <h1>chess "inline-block"</h1>
+</body>
+
+</html>
