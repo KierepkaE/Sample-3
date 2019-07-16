@@ -1,3 +1,7 @@
-# Sample-3
-Chessboard with inline-block
-Course www.samurajprogramowania.pl
+# inline block chessboard 
+
+### simple chessboard with inline block 
+
+
+- CV
+- HTML
